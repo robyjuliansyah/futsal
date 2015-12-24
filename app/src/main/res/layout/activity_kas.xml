@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6d0d1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblsaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saldo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtsaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/lblkosong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblpengeluaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pengeluaran"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtkegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kegiatan" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtbiaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Biaya"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnproseskegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROSES"
+        android:textStyle="bold"
+        android:background="@drawable/proses"/>
+
+    <TextView
+        android:id="@+id/lblkosong2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.89"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clearall"
+        android:textStyle="bold"
+        android:text="CLEAR ALL" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Depootsee</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_group">ListGroup</string>
+    <string name="title_activity_list_item">ListItem</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_bayar">Bayar</string>
+    <string name="title_activity_kas">Kas</string>
+    <string name="title_activity_kelola">Kelola</string>
+    <string name="title_activity_kocok">Kocok</string>
+    <string name="title_activity_laporan">Laporan</string>
+    <string name="title_activity_pemain">Pemain</string>
+    <string name="title_activity_pra_kocok">PraKocok</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

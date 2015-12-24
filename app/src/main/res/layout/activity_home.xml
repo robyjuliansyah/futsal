@@ -1,0 +1,66 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayouthome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6d0d1"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnkeloladata"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="     KELOLA DATA"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/kelola"
+        android:layout_below="@+id/logo"/>
+    <Button
+        android:id="@+id/btnkocok"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:text="     KOCOK"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/kocok"
+        android:layout_below="@+id/btnkeloladata"/>
+    <Button
+        android:id="@+id/btnbayar"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bayar"
+        android:layout_centerHorizontal="true"
+        android:text="     BAYAR"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnkocok"/>
+    <Button
+        android:id="@+id/btnkas"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kas"
+        android:text="     KAS"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnbayar"/>
+    <Button
+        android:id="@+id/btnlaporan"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/laporan"
+        android:text="     LAPORAN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnkas"/>
+
+</RelativeLayout>
